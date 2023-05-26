@@ -1,5 +1,5 @@
 def z1():
-    print("задание 1")
+    print("задание №1")
     class Restaurant:
         def __init__(self,restaurant_name):     #init - метод, позволяющий принимать аргументы для класса
             self.restaurant_name = restaurant_name      #self - параметр, который передаётся первым аргументом в метод класса и представляет собой ссылку на экземпляр класса
@@ -19,7 +19,7 @@ def z1():
 
 
 def z2_1_2_3():
-    print("задание 2")
+    print("задание №2")
     class Restaurant:
         def __init__(self,restaurant_name):     #init - метод, позволяющий принимать аргументы для класса
             self.restaurant_name = restaurant_name      #self - параметр, который передаётся первым аргументом в метод класса и представляет собой ссылку на экземпляр класса
@@ -134,7 +134,7 @@ def z2_4():
 
 import tkinter as tk
 def z3():
-    print("Задание 3")
+    print("Задание №3")
     class window:   #класс для графического окна
         def __init__(self, flavors):
             self.flavors = flavors
